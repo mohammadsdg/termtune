@@ -18,7 +18,7 @@ const HELP = [
   ['↑ ↓  j k', 'move'],
   ['PgUp PgDn', 'move by page'],
   ['g  G', 'top / bottom'],
-  ['enter', 'play selected (queue = current list)'],
+  ['enter', 'play selected (queue = full library)'],
   ['space', 'pause / resume'],
   ['n  p', 'next / previous (p restarts after 3s)'],
   ['← →  h l', 'seek 5s  (shift: 30s)'],
@@ -266,7 +266,10 @@ class UI {
   }
 
   playSelected() {
-    if (this.view.length) this.p.playQueue(this.view, this.cursor);
+    const selected = this.view[this.cursor];
+    if (!selected) return;
+    const index = this.all.indexOf(selected);
+    if (index >= 0) this.p.playQueue(this.all, index);
   }
 
   jumpToCurrent() {

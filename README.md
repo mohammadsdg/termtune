@@ -57,7 +57,7 @@ Your folders, volume, shuffle/repeat, theme and visualizer setting are remembere
 | Key | Action |
 |-----|--------|
 | `↑ ↓` / `j k` | move · `PgUp/PgDn` page · `g` / `G` top / bottom |
-| `enter` | play the selected track (the queue is whatever list you're looking at) |
+| `enter` | play the selected track (the queue and shuffle always use the full library) |
 | `space` | pause / resume (replays the current track if it had finished) |
 | `n` / `p` | next / previous (`p` restarts the track if you're >3s in) |
 | `← →` / `h l` | seek ±5s · hold `shift` for ±30s |
