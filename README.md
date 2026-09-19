@@ -1,8 +1,10 @@
 # ♫ termtune
 
-A friendly, good-looking terminal music player written in Node.js.
+Just A friendly terminal music player written in Node.js.
 It draws its own UI and uses [mpv](https://mpv.io) as the audio engine,
 so it plays practically every format (mp3, flac, ogg, opus, m4a, wav, …) and even URLs.
+
+Built it cause i was tired of leaving terminal to listen and change my music.
 
 ```
  ♫ termtune                                        ▶ playing   vol ██████░░ 70%   ⇄ off   ↻ off
