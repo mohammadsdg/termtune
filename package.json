@@ -1,0 +1,27 @@
+{
+  "name": "termtune",
+  "version": "1.0.0",
+  "description": "A friendly, good-looking terminal music player for Node.js (powered by mpv)",
+  "bin": {
+    "termtune": "bin/termtune.js"
+  },
+  "main": "bin/termtune.js",
+  "scripts": {
+    "start": "node bin/termtune.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "music",
+    "player",
+    "terminal",
+    "tui",
+    "cli",
+    "mpv"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "music-metadata": "11.15.0"
+  }
+}
