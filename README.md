@@ -50,7 +50,7 @@ termtune --theme sunset --volume 60
 Options: `-a/--autoplay`, `-s/--shuffle`, `--volume <0-100>`, `--theme <aurora|sunset|forest|ocean|mono>`, `--no-mouse`, `-h`, `-v`.
 
 Your folders, volume, shuffle/repeat, theme and visualizer setting are remembered in
-`~/.config/termtune/state.json` (`%APPDATA%\termtune` on Windows).
+`~/.config/termtune/state.json`.
 
 ## Keys
 
@@ -85,7 +85,7 @@ Your folders, volume, shuffle/repeat, theme and visualizer setting are remembere
 
 ```
 bin/termtune.js   CLI entry: args, startup, shutdown
-src/mpv.js        mpv JSON-IPC wrapper (unix socket / Windows named pipe)
+src/mpv.js        mpv JSON-IPC wrapper (unix socket)
 src/player.js     queue, shuffle/repeat, transport, mpv events
 src/library.js    folder scanning + filename heuristics
 src/ui.js         rendering (diffed, flicker-free), input, themes
