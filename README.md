@@ -27,11 +27,9 @@ You need **Node.js 18+** and **mpv**:
 
 | OS      | Install mpv                                    |
 |---------|------------------------------------------------|
-| macOS   | `brew install mpv`                             |
 | Debian/Ubuntu | `sudo apt install mpv`                   |
 | Fedora  | `sudo dnf install mpv`                         |
 | Arch    | `sudo pacman -S mpv`                           |
-| Windows | `winget install mpv` (or `scoop` / `choco`)    |
 
 Then, from this folder:
 
